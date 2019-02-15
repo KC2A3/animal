@@ -12,7 +12,7 @@ public class Animal {
   }
 
   public int getAge() {
-    return age;
+    return this.age;
   }
 
   public void setAge(int age) {
@@ -20,7 +20,7 @@ public class Animal {
   }
 
   public String getWeight() {
-    return weight;
+    return this.weight;
   }
 
   public void setWeight(String weight) {
@@ -28,7 +28,7 @@ public class Animal {
   }
 
   public String getEat() {
-    return eat;
+    return this.eat;
   }
 
   public void setEat(String eat) {
@@ -36,7 +36,7 @@ public class Animal {
   }
 
   public String getRun() {
-    return run;
+    return this.run;
   }
 
   public void setRun(String run) {
