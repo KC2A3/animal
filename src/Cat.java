@@ -1,6 +1,6 @@
 public class Cat extends Animal {
-  public Cat(int age, String weight, String eat, String run) {
-    super(age, weight, eat, run);
+  public Cat(int age, String weight) {
+    super(age, weight);
   }
 
   public void call() {
